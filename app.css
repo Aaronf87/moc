@@ -24,3 +24,7 @@ body {
 #groupHeading span {
     color: red;
 }
+
+#groupHeading h1 {
+    font-weight: 100;
+}
