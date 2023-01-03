@@ -27,4 +27,12 @@ body {
 
 #groupHeading h1 {
     font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #groupHeading h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
 }
