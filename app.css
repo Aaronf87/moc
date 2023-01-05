@@ -2,6 +2,17 @@ body {
     background-color: #f5d9df;
     font-family: "Nunito" sans-serif;
 }
+/* add the class to h2 and p tags */
+.high h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size:2.5rem;
+}
+ p{
+    color:#f498b8;
+    
+}
+/* add the class to h2 and p tags */
 
 #mainNavbar {
 
