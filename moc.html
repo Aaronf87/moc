@@ -45,9 +45,11 @@
 
         </div>
     </nav>
-
-    <section class="fluid-container px-0">
-        <div class="row align-items-center">
+<!-- FIRST SECTION  -->
+<!-- FIRST SECTION  -->
+    <section class="fluid-container px-0 content">
+        <!-- ROW -->
+        <div class="row align-items-center ">
             <div class="col-lg-6">
                 <div id="groupHeading" class="text-center text-white d-none d-lg-block mt-5">
                     <h1 class="display-2">Museum <span>/</span> of <span>/</span> Candy</h1>
@@ -61,17 +63,18 @@
                 </div>
             </div>
             <div class="col-lg-6 py-0">
-                <img class="img-fluid" src="imgs/hand2.png" alt="">
+                <!-- HAND PHOTO -->
+                <img class="img-fluid rounded" src="imgs/hand2.png" alt="">
             </div>
         </div>
     </section>
     <!-- NEXT SECTION MILK -->
     <!-- NEXT SECTION MILK -->
-<section class="container-fluid px-0">
+<section class="container-fluid px-0 ">
 <!-- ROW -->
-    <div class="row align-items-center ">
+    <div class="row align-items-center content">
         <!-- 1ST COL MILK PHOTO -->
-      <div class="col-md-6 order-2 order-md-1"><img class= "img-fluid"src="imgs/milk.png" alt="">
+      <div class="col-md-6 order-2 order-md-1"><img class= "img-fluid rounded"src="imgs/milk.png" alt="">
       </div>
 <!-- 2ND COL MUSEUM OF CANDY W/ LOREM IPSUM TEXT -->
       <div class="col-md-6 text-center order-1 order-md-2">
@@ -94,11 +97,57 @@
 </section>
 
 
-    <!-- NEXT SECTION MILK -->
-    <!-- NEXT SECTION MILK -->
+    <!-- NEXT SECTION loli -->
+    <!-- NEXT SECTION loli-->
+    <section class="container-fluid px-0 ">
+        <!-- ROW -->
+            <div class="row align-items-center content">
+                <!-- 1ST COL loli PHOTO -->
+              <div class="col-md-6 order-2 order-md-2"><img class= "img-fluid rounded"src="imgs/gumball.png" alt="">
+              </div>
+        <!-- 3rd COL MUSEUM OF CANDY W/ LOREM IPSUM TEXT -->
 
 
-
+              <div class="col-md-6 text-center order-1 order-md-1">
+                <div class="row justify-content-center high">
+                  <div class="col-10 col-lg-8 ">
+                    <h2>Museum of Candy</h2>
+                    <img src="imgs/lolli_icon.png" alt="">
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, ratione. Quam ipsam reprehenderit nulla 
+                            repudiandae. Facere iusto voluptates neque, debitis labore aliquam? Facilis, et unde! A reiciendis commodhic  
+                            consequuntur!</p>
+                        </div>
+              </div>
+            </div>
+         </div>
+         </section>
+<!-- SPINKLES SECTION  -->
+<section class="container-fluid px-0 ">
+    <!-- ROW -->
+        <div class="row align-items-center content">
+            <!-- 1ST COL SPINKLES PHOTO -->
+          <div class="col-md-6 order-2 order-md-1"><img class= "img-fluid rounded"src="imgs/sprinkles.png" alt="">
+          </div>
+    <!-- 2ND COL MUSEUM OF CANDY W/ LOREM IPSUM TEXT -->
+          <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center high">
+              <div class="col-10 col-lg-8 ">
+                <h2>Museum of Candy</h2>
+                <img src="imgs/lolli_icon.png" alt="">
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, ratione. Quam ipsam reprehenderit nulla 
+                        repudiandae. Facere iusto voluptates neque, debitis labore aliquam? Facilis, et unde! A reiciendis commodhic  
+                        consequuntur!</p>
+                    </div>
+          </div>
+        </div>
+    
+    
+        </div>
+    
+    
+    
+    </section>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -112,6 +161,14 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+<script>
+$(function (){
+    $(document).scroll(function(){
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    });
+});
+</script>
 </body>
 
 </html>
