@@ -1,6 +1,6 @@
 # Museum of Candy Website
 
-## This Museum of Candy Webpage was made as a starting guide in my early software development role.   This small project implement the foundations of HTML, CSS, BootStrap, some media queries and git. This was learned while being instructed by Colt Steel on his udemy course.  
+This Museum of Candy Webpage was made as a starting guide in my early software development role.   This small project implement the foundations of HTML, CSS, BootStrap, some media queries and git. This was learned while being instructed by Colt Steel on his udemy course.  
 
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
